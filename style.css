@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+    color: #333;
+}
+
+/* Navigation */
+
+nav {
+    background: #111827;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+/* Home Header */
+
+header {
+    text-align: center;
+    padding: 100px 20px;
+    background: #0f766e;
+    color: white;
+}
+
+header h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+/* Main Sections */
+
+section {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 40px;
+    background: white;
+    border-radius: 10px;
+}
+
+/* Headings */
+
+h1,
+h2 {
+    color: #0f766e;
+}
+
+/* Button */
+
+button {
+    background: #0f766e;
+    color: white;
+    border: none;
+    padding: 14px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #115e59;
+}
+
+/* Skills */
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.skill-card {
+    padding: 25px;
+    background: #f0fdfa;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Projects */
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.project-card {
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+/* Contact */
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+label {
+    font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #111827;
+    color: white;
+}
+
+/* Mobile */
+
+@media (max-width: 700px) {
+
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    header h1 {
+        font-size: 35px;
+    }
+
+    .skills,
+    .projects {
+        grid-template-columns: 1fr;
+    }
+
+    section {
+        margin: 20px;
+        padding: 25px;
+    }
+}
