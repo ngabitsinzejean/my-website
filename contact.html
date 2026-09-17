@@ -5,45 +5,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="skills.html">Skills</a>
-    <a href="projects.html">Projects</a>
-    <a href="contact.html">Contact</a>
-</nav>
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </nav>
 
-<section>
+    <!-- Contact Section -->
+    <section>
+        <h1>Contact Me</h1>
 
-    <h1>Contact Me</h1>
+        <p>
+            If you would like to contact me, please use the form below.
+        </p>
 
-    <p>If you would like to contact me, please use the form below.</p>
+        <form action="YOUR_FORMSPREE_ENDPOINT" method="POST">
 
-    <form>
+            <label for="name">Name:</label><br>
+            <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                required
+            >
+            <br><br>
 
-        <label>Name:</label><br>
-        <input type="text" placeholder="Enter your name"><br><br>
+            <label for="email">Email:</label><br>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+            >
+            <br><br>
 
-        <label>Email:</label><br>
-        <input type="email" placeholder="Enter your email"><br><br>
+            <label for="message">Message:</label><br>
+            <textarea
+                id="message"
+                name="message"
+                rows="6"
+                placeholder="Write your message"
+                required
+            ></textarea>
+            <br><br>
 
-        <label>Message:</label><br>
-        <textarea rows="6" placeholder="Write your message"></textarea><br><br>
+            <button type="submit">Send Message</button>
 
-        <button type="submit">Send Message</button>
+        </form>
+    </section>
 
-   <form id="contactForm">
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 My Portfolio</p>
+    </footer>
 
-</section>
-
-<footer>
-    <p>© 2026 My Portfolio</p>
-</footer>
+    <script src="script.js"></script>
 
 </body>
+
 </html>
