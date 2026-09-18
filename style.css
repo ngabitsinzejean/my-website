@@ -605,3 +605,70 @@ button:hover {
 .buy-btn:hover {
     background: #218838;
 }
+
+/* Search Box */
+.search-box {
+    margin: 30px 0;
+}
+
+.search-box input {
+    width: 80%;
+    max-width: 450px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Featured Products */
+.featured-products {
+    background: #fff3cd;
+    max-width: 600px;
+    margin: 25px auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ffe69c;
+}
+
+/* Payment Methods */
+.payment-methods {
+    background: white;
+    max-width: 600px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.payment-methods h2 {
+    margin-top: 0;
+}
+
+/* Reviews */
+.reviews {
+    background: white;
+    max-width: 600px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.reviews h2 {
+    margin-top: 0;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .product-card,
+    .payment-methods,
+    .reviews,
+    .featured-products {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .search-box input {
+        width: 90%;
+    }
+}
