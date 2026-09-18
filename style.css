@@ -155,3 +155,10 @@ footer {
         padding: 25px;
     }
 }
+.research-image {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 25px auto;
+    border-radius: 10px;
+}
