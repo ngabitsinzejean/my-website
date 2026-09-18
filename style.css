@@ -162,3 +162,16 @@ footer {
     margin: 25px auto;
     border-radius: 10px;
 }
+.image-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background: white;
+    padding: 30px;
+}
+
+.image-container img {
+    width: 48%;
+    height: auto;
+    display: block;
+}
